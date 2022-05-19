@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<title>Craft Records</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Craft Records official webpage">
+	<meta name="keywords"
+		content="craft, craftrecords, craft records, CRAFT, craft-records, mambosinfinitos, mambos, infinitos, mambos-infinitos, mambos ininitos">
+
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css">
+	<link rel="stylesheet" type="text/css" href="css/baguetteBox.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/fontawesome.css">
+	<link rel="stylesheet" type="text/css" href="css/theme.css">
+	<link rel="stylesheet" type="text/css" href="assets-mp3/css/style.css">
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#3e3523">
+	<meta name="msapplication-TileColor" content="#f7ecd5">
+	<meta name="theme-color" content="#ffffff">
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZSW0YT372X"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'G-ZSW0YT372X');
+	</script>
+</head>
+
+<body>
+
+	<!-- Debug XS/SM Start -->
+	<div class="d-flex d-md-none debug">
+		<p style="color:#000">
+			<span>Oops - Page not ready</span>
+			<br><br>
+			we've got <span class="you">404</span> problems, and mobile viewport is one. we're working on it. keep in
+			touch &lt;3
+		</p>
+	</div>
+	<!-- Debug Ends -->
+
+	<!-- Debug MD/LG/XL Start -->
+	<div class="d-none d-md-block">
+
+		<section id="main">
+
+			<!-- Video Landing Page -->
+			<div id="landing-page" class="container-fluid">
+				<video id="homevid" autoplay muted loop>
+					<source src="video/bg-landing.mp4" tpe="video/mp4">
+				</video>
+
+				<div class="row">
+
+					<div id="landing-logo" class="col-md-12"
+						style="display: grid;justify-content: center;align-content: center;">
+						<img src="img/logos/logo.png">
+
+						<span>
+							<a class="lang-pt" href="#mainform" onclick="locales();">PT</a> / <a class="lang-uk"
+								href="#mainform" onclick="localesUK();">UK</a>
+						</span>
+					</div>
+
+				</div>
+
+			</div>
+			<!-- Video Landing Page Ends -->
+
+			<!-- Mainform -->
+			<div id="mainform" class="container-fluid" onload="localesUK()">
+				<div class="row">
+
+					<!-- Main Menu -->
+					<div class="col-md-3 col-xl-2 main-menu">
+						<div class="row">
+
+							<div class="col-md-6 menu-logo">
+							</div>
+
+							<div class="col-md-6 menu-links">
+								<a id="home-link" href="" class="js-menu-links bold" data-target="#carousel-2"
+									data-slide-to="0"></a><br>
+								<a id="studio-link" href="" class="js-menu-links" data-target="#carousel-2"
+									data-slide-to="1"></a><br>
+								<a id="portfolio-link" href="" class="js-menu-links" data-target="#carousel-2"
+									data-slide-to="2"></a><br>
+								<a id="contact-link" href="" class="js-menu-links" data-target="#carousel-2"
+									data-slide-to="3"></a>
+							</div>
+
+						</div>
+					</div>
+
+					<!-- Main Menu Ends -->
+
+					<!-- Mainform Content -->
+					<div id="carousel-2" class="col-md-12 col-xl-12 carousel slide" style="padding-left:0px;">
+
+						<!-- Carousel Starts -->
+						<div class="carousel-inner">
+
+							<!-- Carousel About us Page (Default)  -->
+							<div class="carousel-item active">
+
+								<!-- About us Page -->
+								<div class="container-fluid about-us">
+									<div class="row">
+
+										<div class="col-md-3">
+											<!-- Blank Space Main-Menu -->
+										</div>
+
+										<div class="col-md-9">
+											<div class="row">
+
+												<div class="col-md-6 about-us-text">
+													<h1 id="company-name"></h1>
+													<h2 id="company-slogan"></h2>
+													<p id="company-text"></p>
+													<h3 id="know-more"></h3>
+													<a class="more more-aboutus more-js" data-target="#carousel-2"
+														data-slide-to="3" id="lets-talk"></a>
+												</div>
+
+												<div class="col-md-6">
+												</div>
+
+											</div>
+										</div>
+
+									</div>
+								</div>
+								<!-- About us Ends Page -->
+
+							</div>
+							<!-- Carousel About us Page (Default) Ends -->
+
+							<!-- Carousel Studio Page -->
+							<div class="carousel-item">
+
+								<!-- Studio Mainform -->
+								<div class="container-fluid studio">
+
+									<!-- Studio Floating Menu  -->
+									<div id="studio-menu">
+										<table id="studio-menu-table">
+											<tbody>
+
+												<tr class="studio-menu-entry">
+													<td class="studio-menu-text" id="studio-menu-text-default">
+														<a class="ga-studiomenu-1" href="#studio-1"
+															id="studio-menu-1"></a>
+													</td>
+													<td class="teste-2">
+														<a href="#studio-1">
+															<div id="studio-menu-bullet-default"
+																class="studio-menu-bullet">
+															</div>
+														</a>
+													</td>
+												</tr>
+
+												<tr class="studio-menu-entry">
+													<td class="studio-menu-text">
+														<a class="ga-studiomenu-2" href="#studio-2"
+															id="studio-menu-2"></a>
+													</td>
+													<td class="teste-2">
+														<a href="#studio-2">
+															<div class="studio-menu-bullet">
+															</div>
+														</a>
+													</td>
+												</tr>
+
+												<tr class="studio-menu-entry">
+													<td class="studio-menu-text">
+														<a class="ga-studiomenu-3" href="#studio-3"
+															id="studio-menu-3"></a>
+													</td>
+													<td class="teste-2">
+														<a href="#studio-3">
+															<div class="studio-menu-bullet">
+															</div>
+														</a>
+													</td>
+												</tr>
+
+												<!-- <tr class="studio-menu-entry">
+													<td class="studio-menu-text">
+														<a class="ga-studiomenu-4" href="#studio-4" id="studio-menu-4"></a>
+													</td>
+													<td class="teste-2">
+														<a href="#studio-4">
+															<div class="studio-menu-bullet">
+															</div>
+														</a>
+													</td>
+												</tr> -->
+
+											</tbody>
+										</table>
+									</div>
+									<!-- Studio Floating Menu Ends -->
+
+									<!-- Studio Content  -->
+									<div id="js-studio" class="row studio-content">
+
+										<!-- Recording Page  -->
+										<div class="col-md-12" id="studio-1">
+
+											<div class="row padding-top">
+
+												<div class="col-md-4 col-xl-3">
+												</div> <!-- Blank Space Main Menu -->
+
+												<div class="col-md-5 col-xl-4 recording-text">
+													<h1 id="studio-titulo"></h1>
+													<p id="studio-text"></p>
+													<a class="more more-recording more-js" data-target="#carousel-2"
+														data-slide-to="3" id="studio-schedule"></a>
+												</div>
+
+												<div class="col-md-3 col-xl-5">
+													<!-- Blank Space Studio Menu -->
+												</div>
+
+												<!-- 2nd Row -->
+
+												<div class="col-md-2 col-xl-1">
+												</div>
+
+												<div class="col-md-9 col-xl-10 recording-text-2" id="studio-text-2">
+												</div>
+
+												<div class="col-md-1 col-xl-1">
+												</div>
+
+											</div>
+
+										</div>
+										<!-- Recording Page Ends -->
+
+										<!-- Mix & Master Page -->
+										<div class="col-md-12" id="studio-2">
+											<div class="row padding-top">
+
+												<div class="col-md-2 col-lg-2">
+												</div>
+
+												<div class="col-md-4 mix-master-text">
+													<h2 id="mixmaster-titulo-2"></h2>
+													<p id="mixmaster-text"></p>
+													<a class="more more-mixmaster more-js" data-target="#carousel-2"
+														data-slide-to="3" id="send-your-stems"></a>
+												</div>
+
+												<div class="col-md-4 mix-master-title">
+													<h1 id="mixmaster-titulo"></h1>
+												</div>
+
+												<div class="col-md-2">
+												</div>
+
+											</div>
+										</div>
+										<!-- Mix & Master Page Ends -->
+
+										<!-- Production Page -->
+										<div class="col-md-12" id="studio-3">
+											<div class="row padding-top">
+
+												<div class="col-md-4">
+												</div>
+
+												<div class="col-md-5 production-text">
+													<h1 id="production-titulo"></h1>
+													<p id="production-text"></p>
+													<a id="production-lets-talk" class="more more-production more-js"
+														data-target="#carousel-2" data-slide-to="3"></a>
+												</div>
+
+												<div class="col-md-3">
+												</div>
+
+											</div>
+										</div>
+										<!-- Production Page Ends -->
+
+										<!-- alteração temp starts  (Rehearsal Page)  -->
+
+										<!-- Alteração temporária endsa (Rehearsal Page Ends) -->
+
+									</div>
+									<!-- Studio Content Ends -->
+
+								</div>
+								<!-- Studio Mainform Ends -->
+
+							</div>
+							<!-- Carousel Studio Page Ends -->
+
+							<!-- Carousel Portfolio Page  -->
+							<div class="carousel-item">
+
+								<!-- Portfolio Content  -->
+								<div class="container-fluid portfolio">
+
+									<div class="row padding-top">
+
+										<div class="col-md-2">
+										</div>
+
+										<div class="col-md-3 rehersal-text">
+											<h1 id="rehearsal-titulo"></h1>
+											<p id="rehearsal-text"></p>
+											<a class="more more-rehearsal-1" href="#" data-slide-to="3"
+												id="gearlist"></a>
+											<br><br>
+											<a class="more more-rehearsal-2 more-js" data-target="#carousel-2"
+												data-slide-to="3" id="rehearsal-schedule"></a>
+										</div>
+
+										<div id="galeria" class="col-35">
+
+											<div class="row gallery-row-1">
+												<!-- 1st Row -->
+												<a class="col-md-6 gallery-1" href="img/galeria/pic1.jpg"
+													data-caption='Titulo foto 1<br><span>a descrição do mambito 1 aqui, mais detalhado.</span>'></a>
+												<a class="col-md-6 gallery-2" href="img/galeria/pic2.jpg"
+													data-caption="Titulo foto 2<br><span>a descrição do mambito 2 aqui, mais detalhado.</span>"></a>
+											</div>
+
+											<div class="row gallery-row-2">
+												<!-- 2nd Row-->
+
+												<a class="col-md-6 gallery-3" href="img/galeria/pic3.jpg"
+													data-caption="Titulo foto 3<br><span>a descrição do mambito 3 aqui, mais detalhado.</span>"></a>
+
+												<div class="col-md-6 gallery-double">
+													<!-- 4th & 5th Pics (2nd Row, 2nd Cell)-->
+													<div class="row gallery-row-3">
+														<a class="col-md-12 gallery-4" href="img/galeria/pic4.jpg"
+															data-caption="Titulo foto 4<br><span>a descrição do mambito 4 aqui, mais detalhado.</span>"></a>
+														<a class="col-md-12 gallery-5" href="img/galeria/pic5.jpg"
+															data-caption="Titulo foto 5<br><span>a descrição do mambito 5 aqui, mais detalhado.</span>"></a>
+													</div>
+												</div>
+
+											</div>
+
+											<div class="hidden">
+												<!-- restantes fotos da galeria -->
+												<a class="col-md-12 gallery-4" href="img/galeria/pic6.jpg"
+													data-caption="Titulo foto 6<br><span>a descrição do mambito 6 aqui, mais detalhado.</span>"></a>
+												<a class="col-md-12 gallery-5" href="img/galeria/pic7.jpg"
+													data-caption="Titulo foto 7<br><span>a descrição do mambito 7 aqui, mais detalhado.</span>"></a>
+												<a class="col-md-12 gallery-4" href="img/galeria/pic8.jpg"
+													data-caption="Titulo foto 8<br><span>a descrição do mambito 8 aqui, mais detalhado.</span>"></a>
+												<a class="col-md-12 gallery-5" href="img/galeria/pic9.jpg"
+													data-caption="Titulo foto 9<br><span>a descrição do mambito 9 aqui, mais detalhado.</span>"></a>
+												<a class="col-md-12 gallery-4" href="img/galeria/pic10.jpg"
+													data-caption="Titulo foto 10<br><span>a descrição do mambito 10 aqui, mais detalhado.</span>"></a>
+												<a class="col-md-12 gallery-5" href="img/galeria/pic11.jpg"
+													data-caption="Titulo foto 11<br><span>a descrição do mambito 11 aqui, mais detalhado.</span>"></a>
+												<a class="col-md-12 gallery-4" href="img/galeria/pic12.jpg"
+													data-caption="Titulo foto 12<br><span>a descrição do mambito 12 aqui, mais detalhado.</span>"></a>
+											</div>
+
+										</div>
+
+										<div class="col">
+										</div>
+
+									</div>
+
+								</div>
+								<!-- Portfolio Content  End -->
+
+							</div>
+							<!-- Carousel Portfolio Page End -->
+
+							<!-- Carousel Contact Page  -->
+
+							<div class="carousel-item">
+								<div class="container-fluid contact">
+
+									<div class="row">
+										<div class="col-md-3 col-xl-2">
+										</div>
+
+										<div class="col-md-5 col-xl-5 padding-top">
+											<!-- Coluna informações craft  -->
+
+											<div id="contact-titulo" class="contatos-intro">
+											</div>
+
+											<div class="contatos-info">
+												<span id="contact-address" class="bold"></span>
+												<br>
+
+												<a id="contact-address-2"
+													href="https://www.google.com/maps/place/38%C2%B041'00.4%22N+9%C2%B009'33.4%22W/@38.6835792,-9.1598705,18.5z/data=!4m5!3m4!1s0x0:0x0!8m2!3d38.683443!4d-9.159268"
+													class="mailto" target="_blank">
+												</a>
+												<br><br>
+												<span id="office-hours" class="bold"></span>
+												<br>
+												<span id="office-hours-2"></span>
+												<br><br>
+												<span id="office-mail" class="bold"></span>
+												<br>
+												<span id="office-mail-2"></span>
+											</div>
+
+											<div class="contatos-links">
+												<a id="contact-shop" class="ga-shop" target="_blank" href="#"></a><br>
+												<a id="contact-insta" class="ga-insta" target="_blank"
+													href="https://www.instagram.com/craft.records/"></a><br>
+												<a id="contact-youtube" class="ga-youtube" target="_blank"
+													href="https://www.youtube.com/channel/UCTdWkL23FQMJQ1wCbkkUrag"></a><br><br>
+												<a id="contact-booking" class="more more-contacts ga-schedule"
+													target="_blank"
+													href="https://craft.mambosinfinitos.pt/booking/index.php"></a><br>
+											</div>
+
+										</div> <!-- Coluna informações craft Ends -->
+
+										<div class="col-md-4 col-xl-5 contatos-individuais">
+											<!-- Coluna de contatos individuais -->
+
+											<div class="contatos-separador">
+											</div>
+
+											<div id="contacto-1" class="contatos-solo"></div>
+
+											<div id="contacto-2" class="contatos-solo"></div>
+
+											<div id="contacto-3" class="contatos-solo"></div>
+
+											<div id="contacto-4" class="contatos-solo"></div>
+
+											<div id="contacto-5" class="contatos-solo"></div>
+
+											<div class="contatos-separador">
+											</div>
+
+										</div> <!-- Coluna de contatos individuais Ends -->
+
+									</div>
+
+								</div>
+
+							</div>
+							<!-- Carousel Contact Page Ends  -->
+
+						</div>
+						<!-- Carousel Ends -->
+
+					</div>
+					<!-- Content Ends -->
+
+				</div>
+			</div>
+			<!-- Mainform Ends -->
+
+		</section>
+	</div>
+	<!-- Debug Ends MD/LG/XL -->
+
+	<!-- Debug 2 XS/SM Start -->
+	<div class="d-block d-md-none"></div>
+	<!-- Debug 2 XS/SM Ends -->
+
+	<!-- Debug 2 MD/LG/XL Start -->
+	<div class="d-none d-md-block">
+
+		<footer id="footer">
+			<div class="container-fluid">
+				<div class="row">
+
+
+					<div class="col-md-2 footer-logo">
+					</div>
+
+					<div class="col-md-2 footer-copy">
+						<div id="copyright-company"></div>
+						&copy mambosinfinitos
+						<!-- Debug Viewport -->
+						<span class="d-block d-sm-none">XS</span>
+						<span class="d-none d-sm-block d-md-none">SM</span>
+						<span class="d-none d-md-block d-lg-none">MD</span>
+						<span class="d-none d-lg-block d-xl-none">LG</span>
+						<span class="d-none d-xl-block">XL</span>
+						<!-- Debug Viewport Ends -->
+					</div>
+
+					<div class="col-md-6 mixagem-mp3">
+						<div id="player-wrapper">
+							<div id="playlist-table">
+							  </table>
+							  <audio id="music-file" src="assets-mp3/mp3/audio1.mp3"></audio>
+					  
+							</div>
+					  
+							<div id="albumArtwork">
+							  <div id="artwork-mouseover"><i class="far fa-play-circle"></i></div>
+							</div>
+						  </div>
+						  <div id="progress-wrapper">
+							<div id="music-clicker"></div>
+							<div id="music-seeker"></div>
+							<div id="music-progress"></div>
+						  </div>
+					</div>
+
+					<div class="col-md-2 footer-social text-right">
+
+						<div class="footer-social-links">
+							<a class="ga-shop-footer" target="_blank" href="#"><i class="fas fa-shopping-cart"></i></a>
+							<a class="ga-book-footer" target="_blank"
+								href="https://craft.mambosinfinitos.pt/booking/index.php"><i
+									class="far fa-calendar-alt"></i></a>
+							<a class="ga-insta-footer" target="_blank"
+								href="https://www.instagram.com/craft.records/"><i class="fab fa-instagram"
+									aria-hidden="true"></i></a>
+							<a class="ga-youtube-footer" target="_blank"
+								href="https://www.youtube.com/channel/UCTdWkL23FQMJQ1wCbkkUrag"><i
+									class="fab fa-youtube" aria-hidden="true"></i></a>
+						</div>
+						<div class="footer-contact more-js"><a href="" id="footer-more" data-target="#carousel-2"
+								data-slide-to="3"></a>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+		</footer>
+
+	</div>
+	<!-- Debug 2 MD/LG/XL Ends -->
+
+</body>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/theme.js"></script>
+<script src="js/baguetteBox.js"></script>
+<script>baguetteBox.run('#galeria');</script>
+<script>baguetteBox.run('#galeria-portfolio');</script>
+<script src="js/locales.js"></script>
+<script src="assets-mp3/js/main.js"></script>
+<script src="js/analytics.js"></script>
+
+
+</html>
