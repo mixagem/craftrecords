@@ -279,7 +279,7 @@ a:hover {
 	font-size:1.25rem; 
 	font-style: normal;
 	font-weight: bold;
-	margin-top:-.7rem;
+	padding-top:1rem;
 	text-transform: uppercase;
 }
 
@@ -463,9 +463,9 @@ a:hover {
 
 .mix-master-text h2 {
 	font-family: 'Montserrat';
-	font-size:1.4rem;
+	font-size:3rem;
 	font-style: normal;
-	font-weight: bold;
+	/* font-weight: bold; */
 	line-height: .9;
 	margin: 0;
 	padding:0;
@@ -502,7 +502,8 @@ a:hover {
 
 .life {
 	color:#00000000;
-	text-shadow:-2px -2px 1px #fff, 2px 2px 1px #fa3e5f
+	text-shadow:-2px -2px 1px #fff, 2px 2px 1px #fa3e5f;
+	font-size:9.5rem;
 }
 
 
@@ -598,6 +599,7 @@ a:hover {
 	letter-spacing: 3px;
 	padding-top:1rem;
 	padding-bottom:30px;
+	padding-left:1rem;
  }
 
 
