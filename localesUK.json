@@ -33,7 +33,7 @@
         "officeHours": "OFFICE HOURS",
         "officeHours2": "9:30AM TO 6:30PM (GMT+0)",
         "officeMail": "EMAIL",
-        "officeMail2": "<a href='mailto:booking@craftrecords.pt' class='mailto'>BOOKING@CRAFTRECORDS.PT</a>",
+        "officeMail2": "<a href='mailto:craftrecords.inc@gmail.com' class='mailto'>CRAFTRECORDS.INC@GMAIL.COM</a>",
         "contactShop": "SHOP",
         "contactInsta": "INSTAGRAM",
         "contactYoutube": "YOUTUBE",
@@ -46,6 +46,8 @@
         "portfolioTitulo": "portfolio title",
         "portfolioText": "portfolio text",
         "portfolioButton": "portfolio button",
-        "portfolioSchedule": "Get in Touch"
+        "portfolioSchedule": "Get in Touch",
+        "studiophone1": "PHONE",
+        "studiophone2": "<a href='tel:+351966548370'>+351 966 548 370</a>"
     }
 ]

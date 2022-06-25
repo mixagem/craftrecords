@@ -28,13 +28,13 @@
         "gearlist": "gearlist (.pdf)",
         "copyrightCompany": "&copy Craft Records",
         "getInTouch": "Dá o toque",
-        "contactTitulo": "Nubai fazer kel craft.",
+        "contactTitulo": "COME TO CRAFT.",
         "contactAddress": "MORADA",
         "contactAddress2": "R. SERPA PINTO 4, 2800-202<br>ALMADA / PORTUGAL",
         "officeHours": "HORARIO DO XPIDI",
         "officeHours2": "9:30 ÁS 18:30 (GMT+0)",
         "officeMail": "EMAIL",
-        "officeMail2": "<a href='mailto:booking@craftrecords.pt' class='mailto'>BOOKING@CRAFTRECORDS.PT</a>",
+        "officeMail2": "<a href='mailto:craftrecords.inc@gmail.com' class='mailto'>CRAFTRECORDS.INC@GMAIL.COM</a>",
         "contactShop": "SHOP",
         "contactInsta": "INSTAGRAM",
         "contactYoutube": "YOUTUBE",
@@ -47,6 +47,8 @@
         "portfolioTitulo": "o nosso craftfólio",
         "portfolioText": "somos um conjunto de mangas, tendo estado envolvidos nos projetos mais quentes do mercado.<br><br>deixei esse nome azeiteiro para o branco se despachar com os textos, bora boraa.",
         "portfolioButton": "botao portfolio",
-        "portfolioSchedule": "Dá o toque"
+        "portfolioSchedule": "Dá o toque",
+        "studiophone1": "TELEMÓVEL",
+        "studiophone2": "<a href='tel:+351966548370'>+351 966 548 370</a>"
     }
 ]

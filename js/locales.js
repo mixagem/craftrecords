@@ -123,14 +123,14 @@ function locales() {
             var div = document.getElementById("rehearsal-schedule");
             div.innerHTML = data[i].scheduleNow;
         }
-        for (var i = 0; i < data.length; i++) {
-            var div = document.getElementById("copyright-company");
-            div.innerHTML = data[i].copyrightCompany;
-        }
-        for (var i = 0; i < data.length; i++) {
-            var div = document.getElementById("footer-more");
-            div.innerHTML = data[i].getInTouch;
-        }
+        // for (var i = 0; i < data.length; i++) {
+        //     var div = document.getElementById("copyright-company");
+        //     div.innerHTML = data[i].copyrightCompany;
+        // }
+        // for (var i = 0; i < data.length; i++) {
+        //     var div = document.getElementById("footer-more");
+        //     div.innerHTML = data[i].getInTouch;
+        // }
         for (var i = 0; i < data.length; i++) {
             var div = document.getElementById("contact-titulo");
             div.innerHTML = data[i].contactTitulo;
@@ -143,14 +143,14 @@ function locales() {
             var div = document.getElementById("contact-address-2");
             div.innerHTML = data[i].contactAddress2;
         }
-        for (var i = 0; i < data.length; i++) {
-            var div = document.getElementById("office-hours");
-            div.innerHTML = data[i].officeHours;
-        }
-        for (var i = 0; i < data.length; i++) {
-            var div = document.getElementById("office-hours-2");
-            div.innerHTML = data[i].officeHours2;
-        }
+        // for (var i = 0; i < data.length; i++) {
+        //     var div = document.getElementById("office-hours");
+        //     div.innerHTML = data[i].officeHours;
+        // }
+        // for (var i = 0; i < data.length; i++) {
+        //     var div = document.getElementById("office-hours-2");
+        //     div.innerHTML = data[i].officeHours2;
+        // }
         for (var i = 0; i < data.length; i++) {
             var div = document.getElementById("office-mail");
             div.innerHTML = data[i].officeMail;
@@ -159,10 +159,10 @@ function locales() {
             var div = document.getElementById("office-mail-2");
             div.innerHTML = data[i].officeMail2;
         }
-        for (var i = 0; i < data.length; i++) {
-            var div = document.getElementById("contact-shop");
-            div.innerHTML = data[i].contactShop;
-        }
+        // for (var i = 0; i < data.length; i++) {
+        //     var div = document.getElementById("contact-shop");
+        //     div.innerHTML = data[i].contactShop;
+        // }
         for (var i = 0; i < data.length; i++) {
             var div = document.getElementById("contact-insta");
             div.innerHTML = data[i].contactInsta;
@@ -344,14 +344,14 @@ function localesUK() {
             var div = document.getElementById("rehearsal-schedule");
             div.innerHTML = data[i].scheduleNow;
         }
-        for (var i = 0; i < data.length; i++) {
-            var div = document.getElementById("copyright-company");
-            div.innerHTML = data[i].copyrightCompany;
-        }
-        for (var i = 0; i < data.length; i++) {
-            var div = document.getElementById("footer-more");
-            div.innerHTML = data[i].getInTouch;
-        }
+        // for (var i = 0; i < data.length; i++) {
+        //     var div = document.getElementById("copyright-company");
+        //     div.innerHTML = data[i].copyrightCompany;
+        // }
+        // for (var i = 0; i < data.length; i++) {
+        //     var div = document.getElementById("footer-more");
+        //     div.innerHTML = data[i].getInTouch;
+        // }
         for (var i = 0; i < data.length; i++) {
             var div = document.getElementById("contact-titulo");
             div.innerHTML = data[i].contactTitulo;
@@ -364,14 +364,14 @@ function localesUK() {
             var div = document.getElementById("contact-address-2");
             div.innerHTML = data[i].contactAddress2;
         }
-        for (var i = 0; i < data.length; i++) {
-            var div = document.getElementById("office-hours");
-            div.innerHTML = data[i].officeHours;
-        }
-        for (var i = 0; i < data.length; i++) {
-            var div = document.getElementById("office-hours-2");
-            div.innerHTML = data[i].officeHours2;
-        }
+        // for (var i = 0; i < data.length; i++) {
+        //     var div = document.getElementById("office-hours");
+        //     div.innerHTML = data[i].officeHours;
+        // }
+        // for (var i = 0; i < data.length; i++) {
+        //     var div = document.getElementById("office-hours-2");
+        //     div.innerHTML = data[i].officeHours2;
+        // }
         for (var i = 0; i < data.length; i++) {
             var div = document.getElementById("office-mail");
             div.innerHTML = data[i].officeMail;
@@ -380,10 +380,10 @@ function localesUK() {
             var div = document.getElementById("office-mail-2");
             div.innerHTML = data[i].officeMail2;
         }
-        for (var i = 0; i < data.length; i++) {
-            var div = document.getElementById("contact-shop");
-            div.innerHTML = data[i].contactShop;
-        }
+        // for (var i = 0; i < data.length; i++) {
+        //     var div = document.getElementById("contact-shop");
+        //     div.innerHTML = data[i].contactShop;
+        // }
         for (var i = 0; i < data.length; i++) {
             var div = document.getElementById("contact-insta");
             div.innerHTML = data[i].contactInsta;
@@ -396,41 +396,49 @@ function localesUK() {
             var div = document.getElementById("contact-booking");
             div.innerHTML = data[i].contactBooking;
         }
+        // for (var i = 0; i < data.length; i++) {
+        //     var div = document.getElementById("contacto-1");
+        //     div.innerHTML = data[i].contactSolo1;
+        // }
+        // for (var i = 0; i < data.length; i++) {
+        //     var div = document.getElementById("contacto-2");
+        //     div.innerHTML = data[i].contactSolo2;
+        // }
+        // for (var i = 0; i < data.length; i++) {
+        //     var div = document.getElementById("contacto-3");
+        //     div.innerHTML = data[i].contactSolo3;
+        // }
+        // for (var i = 0; i < data.length; i++) {
+        //     var div = document.getElementById("contacto-4");
+        //     div.innerHTML = data[i].contactSolo4;
+        // }
+        // for (var i = 0; i < data.length; i++) {
+        //     var div = document.getElementById("contacto-5");
+        //     div.innerHTML = data[i].contactSolo5;
+        // }
+        // for (var i = 0; i < data.length; i++) {
+        //     var div = document.getElementById("portfolio-titulo");
+        //     div.innerHTML = data[i].portfolioTitulo;
+        // }
+        // for (var i = 0; i < data.length; i++) {
+        //     var div = document.getElementById("portfolio-text");
+        //     div.innerHTML = data[i].portfolioText;
+        // }
+        // for (var i = 0; i < data.length; i++) {
+        //     var div = document.getElementById("portfolio-schedule");
+        //     div.innerHTML = data[i].portfolioSchedule;
+        // }
+        // for (var i = 0; i < data.length; i++) {
+        //     var div = document.getElementById("portfolio-button");
+        //     div.innerHTML = data[i].portfolioButton;
+        // }
         for (var i = 0; i < data.length; i++) {
-            var div = document.getElementById("contacto-1");
-            div.innerHTML = data[i].contactSolo1;
+            var div = document.getElementById("office-phone");
+            div.innerHTML = data[i].studiophone1;
         }
         for (var i = 0; i < data.length; i++) {
-            var div = document.getElementById("contacto-2");
-            div.innerHTML = data[i].contactSolo2;
-        }
-        for (var i = 0; i < data.length; i++) {
-            var div = document.getElementById("contacto-3");
-            div.innerHTML = data[i].contactSolo3;
-        }
-        for (var i = 0; i < data.length; i++) {
-            var div = document.getElementById("contacto-4");
-            div.innerHTML = data[i].contactSolo4;
-        }
-        for (var i = 0; i < data.length; i++) {
-            var div = document.getElementById("contacto-5");
-            div.innerHTML = data[i].contactSolo5;
-        }
-        for (var i = 0; i < data.length; i++) {
-            var div = document.getElementById("portfolio-titulo");
-            div.innerHTML = data[i].portfolioTitulo;
-        }
-        for (var i = 0; i < data.length; i++) {
-            var div = document.getElementById("portfolio-text");
-            div.innerHTML = data[i].portfolioText;
-        }
-        for (var i = 0; i < data.length; i++) {
-            var div = document.getElementById("portfolio-schedule");
-            div.innerHTML = data[i].portfolioSchedule;
-        }
-        for (var i = 0; i < data.length; i++) {
-            var div = document.getElementById("portfolio-button");
-            div.innerHTML = data[i].portfolioButton;
+            var div = document.getElementById("office-phone-2");
+            div.innerHTML = data[i].studiophone2;
         }
     }
 }
